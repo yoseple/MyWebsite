@@ -78,10 +78,10 @@ class Projects extends React.Component {
       },
       "EduX": {
         desc:
-          "An App that allows users to login and upload their degree audit and with the use of ML, can show their best route to graduate early. This is an MVC a model view controller enviornment.",
+          "Worked with a Ahmed Ibreljic to create an App that allows users to login and upload their degree audit and with the use of ML, can show their best route to graduate early. This is an MVC a model view controller enviornment.",
         techStack: "Node.js (Express.js), React.js, Workbench SQL",
-        link:
-          "https://github.com/AhmedIbreljic/EduX"
+        link: "https://github.com/AhmedIbreljic/EduX",
+        open: "https://www.ahmedibreljic.me/"
       },
       "Photography Website": {
         desc:
