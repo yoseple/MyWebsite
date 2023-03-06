@@ -1,5 +1,4 @@
 {
-  "homepage": "http://yoseple.github.io/yosepme",
   "name": "Joseph Nguyen",
   "version": "0.1.0",
   "private": true,
@@ -49,5 +48,5 @@
     "gh-pages": "^3.2.3",
     "prettier": "^2.2.1"
   },
-  "homepage": "https://jarin.me"
+  "homepage": "https://www.yosep.me/"
 }
