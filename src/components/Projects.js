@@ -62,11 +62,11 @@ class Projects extends React.Component {
       }
     };
     const projects = {
-      "DN Hardwood Floors": {
+      "Besieged Bounty": {
         desc:
-          "An react-web-app where clients can contact the company and book appointments",
-        techStack: "React.js, Node.js, SASS",
-        link: "https://github.com/yoseple/dnhardwoodfloors",
+          "A Multiplayer Survival based game, pirate hunting and treasure hunting",
+        techStack: "Unity, C#",
+        link: "#",
         open: "#"
       },
       "8 Puzzle": {
@@ -78,10 +78,10 @@ class Projects extends React.Component {
       },
       "EduX": {
         desc:
-          "Worked with a Ahmed Ibreljic to create an App that allows users to login and upload their degree audit and with the use of ML, can show their best route to graduate early. This is an MVC a model view controller enviornment.",
-        techStack: "Node.js (Express.js), React.js, Workbench SQL",
+          "Colloborated with a team to create an App that allows users to login and upload their degree audit and with the use of ML, can show their best route to graduate early.",
+        techStack: "Node.js (Express.js), React.js, Workbench SQL, Streamlit",
         link: "https://github.com/AhmedIbreljic/EduX",
-        open: "https://www.ahmedibreljic.me/"
+        open: "https://www.edux.ai"
       },
       "Photography Website": {
         desc:
@@ -93,10 +93,10 @@ class Projects extends React.Component {
       "BWH1-Spine": {
         desc:
           "Created an app using Game Engines for nuero-radiologists to help visualize the lower lumbar spine and pinpoint where the pain during certain movements. This app mimics and models the lower lumbar spine kinematic movements.",
-        techStack: "Unreal Engine",
+        techStack: "Unity",
         link: "https://github.com/yoseple/BWH1_SPINE-",
-        open: ""
-      },
+        open: "https://yoseple.itch.io/bwh1-updated2"
+      },  
       "Markov Model": {
         desc:
           "Used the Markov Model ML model that reads in all text and predicts the next word based on the laplace rule",

@@ -86,19 +86,29 @@ const JobList = () => {
       jobTitle: "Software Development Engineer Intern @",
       duration: "MAY 2022 - DEC 2022",
       desc: [
-        "Implemented Front-end using ASP.NET Framework aspx and aspx.cs",
-        "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.",
-        "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use.",
-        "Collaborated with QA Team to quickly resolve issues and bugs that clients reported at a timely manner"
+        "Developed and implemented a Microsoft Word-like text box interface for users, facilitating easy toggling on and off during label edits, thereby improving the user experience.",
+"Engineered a robust API to handle label errors, effectively capturing critical data, and enhancing the visibility of such errors by presenting them on the front-end via an intuitive table layout.",
+"Authored comprehensive documentation for new features, ensuring streamlined understanding and user adoption while maintaining system transparency for stakeholders and clients.",
+" Upheld the reliability and accuracy of newly implemented features through rigorous unit testing, ensuring seamless integration and high-quality software performance."
       ]
     },
     Aday: {
       jobTitle: "Software Engineering Intern @",
       duration: "SEPT 2021 - DEC 2021",
       desc: [
-        " Lead and worked with team members to reach long term project goal",
-        "Produced Front-end development using HTML, CSS, and jQuery",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+        " Architected and developed a robust back-end infrastructure using Node.js, employing RESTful API patterns to seamlessly relay data to the front-end, thereby enhancing data-driven interactions.",
+        "Implemented Machine Learning algorithms, specifically utilizing the Decision Tree model, to perform topic selection for users, boosting the efficacy of studying by providing targeted content based on predictive analysis.",
+      
+      ]
+    },
+   
+    "Brighams Womens Hospital": {
+      jobTitle: "Research Developer @",
+      duration: "SEPT 2019 - APR 2020",
+      desc: [
+        "Engineered a specialized software solution that models the kinematics of the lower lumbar spine, designed to visually represent potential areas of pain or discomfort in joints or nerves. This tool has become instrumental for researchers and surgeons in identifying and addressing patient-specific issues.",
+        "Collaborated with a Harvard professor to gather comprehensive data through CT scans, subsequently utilizing 3D Slicer to create detailed segmentations of the lower lumbar spine, enhancing the quality and precision of surgical preparation and research.",
+        "Automated previously manual steps in the 3D Slicer workflow using Python scripts, substantially reducing time spent on preparatory tasks and increasing overall productivity and efficiency in data processing."
       ]
     },
     "University of Massachusetts Boston": {
@@ -110,30 +120,7 @@ const JobList = () => {
         "Developed a database for checked out items and checked in items using Node.js and SQL"
       ]
     },
-    // Centivizer: {
-    //   jobTitle: "Research Developer @",
-    //   duration: "SEPT 2019 - APR 2020",
-    //   desc: [
-    //     "Researched and developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-    //     "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
-    //   ]
-    // },
-    // TDSB: {
-    //   jobTitle: "Software Engineer @",
-    //   duration: "SEPT 2019 - DEC 2020",
-    //   desc: [
-    //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
-    //   ]
-    // },
-    "": {
-      jobTitle: "Software Engineering Intern @",
-      duration: "MAY 2019 - AUG 2019",
-      desc: [
-        " Lead and worked with team members to reach long term project goal",
-        "Produced Front-end development using HTML, CSS, and jQuery",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
-      ]
-    }
+   
   };
 
   const handleChange = (event, newValue) => {
