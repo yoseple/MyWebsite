@@ -27,7 +27,7 @@ class Projects extends React.Component {
       "Photography ": {
         title: "Photography Portfolio",
         desc:
-          "A website with my current porfolio in P",
+          "A website with my current porfolio in Photography",
         techStack: "HTML",
         link: "https://www.seplephotography.us/",
         open: "https://www.seplephotography.us/",
@@ -38,26 +38,26 @@ class Projects extends React.Component {
         desc:
           "A three.js simulation of the Spine Vertebrae.",
         techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
+        link: "google.com",
+        open: "google.com",
         image: "/assets/bwh3.png"
       },
       "EduX": {
         title: "Edux",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
+          "AI Web app that show students the best route to graduate quicker.",
         techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
+        link: "https://www.edux.ai",
+        open: "https://www.edux.ai",
         image: "/assets/edux.png"
       },
       Portfolio: {
         title: "Besieged Bounty",
         desc:
           "A multiplayer 1-4 player game, survival based pirate game.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
+        techStack: "Unity",
+        link: "https://yoseple.itch.io/pirate-bounty",
+        open: "https://yoseple.itch.io/pirate-bounty",
         image: "/assets/game.png"
       }
     };
