@@ -24,41 +24,41 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
+      "Photography ": {
         title: "Photography Portfolio",
         desc:
           "A website with my current porfolio in P",
         techStack: "HTML",
         link: "https://www.seplephotography.us/",
         open: "https://www.seplephotography.us/",
-        image: "/assets/nomansland.png"
+        image: "/assets/photography.png"
       },
       Truth: {
-        title: "truth",
+        title: "BWH1",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
+          "A three.js simulation of the Spine Vertebrae.",
         techStack: "JAVASCRIPT (THREE.JS)",
         link: "https://github.com/gazijarin/truth",
         open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+        image: "/assets/bwh3.png"
       },
-      "Tall Tales": {
-        title: "tall tales",
+      "EduX": {
+        title: "Edux",
         desc:
           "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
         techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+        image: "/assets/edux.png"
       },
       Portfolio: {
-        title: "portfolio.js",
+        title: "Besieged Bounty",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
+          "A multiplayer 1-4 player game, survival based pirate game.",
         techStack: "NODE.JS (EXPRESS.JS)",
         link: "https://github.com/gazijarin/Portfolio.js",
         open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+        image: "/assets/game.png"
       }
     };
     const projects = {
@@ -67,7 +67,7 @@ class Projects extends React.Component {
           "A Multiplayer Survival based game, pirate hunting and treasure hunting",
         techStack: "Unity, C#",
         link: "#",
-        open: "#"
+        open: "https://yoseple.itch.io/pirate-bounty"
       },
       "8 Puzzle": {
         desc:
@@ -111,7 +111,7 @@ class Projects extends React.Component {
         <div className="section-header ">
           <span className="section-title">/ software-creations</span>
         </div>
-        {/* <Carousel>
+        { <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (
             <Carousel.Item>
               <img
@@ -136,7 +136,7 @@ class Projects extends React.Component {
               </div>
             </Carousel.Item>
           ))}
-        </Carousel> */}
+        </Carousel> }
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (

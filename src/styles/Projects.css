@@ -100,11 +100,18 @@
 }
 
 .carousel-caption {
-  /* font-family: "NTR", sans-serif; */
-  max-width: 500px;
-  right: unset !important;
-  left: 25% !important;
-  user-select: none;
+  /* existing styles */
+  /* center the text horizontally */
+  text-align: center; 
+
+  /* position the caption box in the middle vertically */
+  top: 55%; /* adjust this as needed */
+  transform: translateY(-50%); /* this helps to center it accurately */
+
+  /* other alignment adjustments */
+  right: 50%;
+  left: 50%;
+  transform: translate(00%, -30%); /* center both horizontally and vertically */
 }
 
 .carousel-caption h3 {
